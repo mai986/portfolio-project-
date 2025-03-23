@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mia Dev | Freelance Front-End Web Developer Services</title>
+		<meta
+			name="description"
+			content="Freelance front-end web developer in Portobello offering responsive websites, modern designs, and clean code. Get in touch today."
+		/>
+		<script
+			src="https://kit.fontawesome.com/7dae1b1ce8.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="logo">Mia <span class="underline">Dev</span></div>
+				<nav class="mobile-menu">
+					<button id="menu-toggle">☰</button>
+					<ul id="nav-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="services">
+				<div class="content-wrapper">
+					<h1 class="section-title">
+						Look no furth<span class="underline">er</span>
+					</h1>
+					<p class="services-intro">
+						Helping individuals and small businesses bring their ideas to life
+						through clean, responsive and accessible websites.
+					</p>
+
+					<div class="services-grid">
+						<div class="service-card">
+							<h3>Responsive Websites</h3>
+							<p>
+								I build websites that adapt beautifully to all screen sizes
+								using HTML, CSS and JavaScript.
+							</p>
+						</div>
+						<div class="service-card">
+							<h3>Clean Code</h3>
+							<p>
+								My code is modern, semantic and easy to maintain, following best
+								practices.
+							</p>
+						</div>
+						<div class="service-card">
+							<h3>User-Centred Design</h3>
+							<p>
+								I focus on intuitive, accessible design that keeps the user
+								experience front and centre.
+							</p>
+						</div>
+						<div class="service-card">
+							<h3>Website Updates</h3>
+							<p>
+								I can improve, maintain or redesign existing websites to meet
+								modern standards.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="pricing">
+				<div class="content-wrapper">
+					<h2>Prici<span class="underline">ng</span></h2>
+					<div class="services-grid">
+						<div class="service-card">
+							<h3><i class="fa-solid fa-seedling"></i>Starter Site</h3>
+							<p>Perfect for portfolios or simple business pages.</p>
+							<ul>
+								<li>Up to 3 pages</li>
+								<li>Responsive layout</li>
+								<li>Basic contact form</li>
+							</ul>
+							<p class="price"><strong>£250</strong></p>
+						</div>
+
+						<div class="service-card">
+							<h3><i class="fa-solid fa-laptop-code"></i>Standard Site</h3>
+							<p>Ideal for small businesses and personal brands.</p>
+							<ul>
+								<li>Up to 5 pages</li>
+								<li>Custom styling</li>
+								<li>Social media links</li>
+							</ul>
+							<p class="price"><strong>£400</strong></p>
+						</div>
+
+						<div class="service-card">
+							<h3><i class="fa-solid fa-layer-group"></i>Advanced Site</h3>
+							<p>For those needing more features and flexibility.</p>
+							<ul>
+								<li>Up to 8 pages</li>
+								<li>Custom functionality</li>
+								<li>Admin panel or blog setup</li>
+							</ul>
+							<p class="price"><strong>£600+</strong></p>
+						</div>
+
+						<div class="service-card">
+							<h3>
+								<i class="fa-solid fa-wand-magic-sparkles"></i>Custom Project
+							</h3>
+							<p>Have something different in mind? Let's chat!</p>
+							<ul>
+								<li>Tailored features and design</li>
+								<li>Flexible page count</li>
+								<li>Built around your goals and budget</li>
+							</ul>
+							<p class="price"><strong>Starts from £1200</strong></p>
+						</div>
+					</div>
+					<p>
+						If you're unsure which option is right for you, don't worry — I can
+						guide you based on your needs.
+					</p>
+					<a href="contact.html" class="btn">LET'S TALK</a>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; 2025 Mai Dev</p>
+			<a href="contact.html" class="chat-btn">CHAT WITH ME</a>
+		</footer>
+
+		<script>
+			const toggle = document.getElementById("menu-toggle");
+			const links = document.getElementById("nav-links");
+			toggle.addEventListener("click", () => {
+				links.classList.toggle("show");
+			});
+		</script>
+	</body>
+</html>
