@@ -62,3 +62,24 @@ Element Changes Made
 Author - Mia Dev
 Freelance Front-End Developer based in Edinburgh  
 [Portfolio Website](https://github.com/mai986/portfolio-project-)
+
+CONTENT UPDATES (CONTENT Branch)
+
+- Home page:
+
+- Added mission statement, bullet points, and testimonials to the Home page.
+
+Services page:
+
+- Added How It Works and FAQs sections to the Services page.
+- Used HTML comments to clearly label each new section.
+
+Contact page:
+
+- Added Availability section to the Contact page.
+- Used HTML comments to clearly label each new section.
+
+Pages not updated
+
+- About Page: No new content added.
+- Projects Page: No new content added.

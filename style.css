@@ -148,6 +148,8 @@ header {
 	font-weight: bold;
 	cursor: pointer;
 	transition: background-color 0.3s, box-shadow 0.3s;
+	display: inline-block;
+	margin: 1.5rem 0;
 }
 
 .btn:hover {
