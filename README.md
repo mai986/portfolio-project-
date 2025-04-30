@@ -65,9 +65,16 @@ Freelance Front-End Developer based in Edinburgh
 
 CONTENT UPDATES (CONTENT Branch)
 
-- Home page:
+General
 
-- Added mission statement, bullet points, and testimonials to the Home page.
+- All pages have html comments.
+- Added section divider line for improved layout and seperation.
+
+Home page:
+
+- Added mission statement,
+- Added a what if offer section with bullet points,
+- Added testimonials.
 
 Services page:
 
@@ -79,7 +86,14 @@ Contact page:
 - Added Availability section to the Contact page.
 - Used HTML comments to clearly label each new section.
 
-Pages not updated
+About Page:
 
-- About Page: No new content added.
-- Projects Page: No new content added.
+- Added a skills and tools section with an introductiory paragraph and a bullet list
+- Added a how i work section.
+- Used a responsive two-column layout for the process list for larger screens and single for mobile.
+- Used HTML comments to clearly label each new section.
+
+Projects Page:
+
+- Added an introductory paragraph for the types of project.
+- comments added.

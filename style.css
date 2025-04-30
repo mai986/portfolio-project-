@@ -25,11 +25,24 @@ body {
 	flex-direction: column;
 }
 
+ul {
+	padding-left: 1rem;
+	margin-left: 0;
+}
+
 /* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #393838;
+}
+
 h1 {
 	font-size: 3rem;
 	font-weight: bold;
-	color: #3b3b3b;
 }
 
 .logo {
@@ -47,8 +60,10 @@ h1 {
 }
 
 p {
+	color: #393838;
 	font-size: 1.2rem;
 	margin-bottom: 1rem;
+	text-align: left;
 }
 
 .highlight {
@@ -66,6 +81,14 @@ p {
 	text-decoration: underline;
 	text-decoration-color: #90323d;
 	text-underline-offset: 10px;
+}
+
+.section-divider {
+	border: none;
+	height: 1px;
+	width: 60%;
+	margin: 3rem auto;
+	background: linear-gradient(to right, #b9afa4, #90323d);
 }
 
 /* Layout */
@@ -207,12 +230,27 @@ header {
 	margin: 1.2rem 0;
 }
 
+/* About */
+
 .profile-img {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
 	object-fit: cover;
 	margin: 1rem 0;
+}
+
+.two-columns ol {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+	padding-left: 1.2rem; /* keeps the ol numbering visible */
+}
+
+@media screen and (min-width: 768px) {
+	.two-columns ol {
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 /* Project Showcase */
